@@ -1,0 +1,16 @@
+allowed_domains:  ['www.thewire.in']
+start_urls: ['https://thewire.in/']
+sections_xpath: "//div[@class='tw-container']"
+section_name_xpath : "//h1/text()"
+sub_sections_xpath : "//div[@class='header__bottom-nav-link']"
+sub_section_name_xpath : "//h1/text()"
+articles_xpath : "//div[contains(@class, 'card__title')]"
+articles_next_page_xpath : ""
+article_title_xpath : "//h1/text()"
+article_summary_xpath : "//p[@class='shortDesc']/text()"
+article_author_xpath : "//div[@class='author__name']/a/text()" 
+article_author_link_xpath : "//div[@class='author__name']" 
+article_date_time_xpath : "//span[@class='posted-on']/text()"
+article_hashtag_xpath : ""
+article_text_xpath : "//div[@class='col s12 m10 width-78p postComplete__description']/div/p/text()"
+article_image_xpath : ".//img[contains(@src, '.jpg')]"
